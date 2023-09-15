@@ -55,6 +55,22 @@
         var sc_https = 1; 
     </script>
     <script src="https://startupbuilder.000webhostapp.com/assets/js/counter.js" async></script>
+    <style>
+        #logo_text {
+            font-family: "Arial", sans-serif;
+            /* Choose a suitable font-family */
+            font-weight: bold;
+            font-size: 14pt;            /* Adjust the font size as needed */
+            color: #a14720;
+            /* Choose your desired text color */
+            text-transform: uppercase;
+            /* Makes the text uppercase */
+            letter-spacing: 2px;
+            /* Adjust letter spacing as needed */
+            text-decoration: none;
+            /* Removes underlines or other decorations */
+        }
+    </style>
 <style>
     
 .form-control {
@@ -63,12 +79,12 @@
   margin: 10px 0;
   padding: 10px;
   border-radius: 5px;
-  border: 2px solid #ff973c;
+  border: 2px solid #944500;
 }
 
 button {
   display: inline-block;
-  background-color: #ff973c;
+  background-color: #944500;
   border: none;
   color: #ffffff;
   padding: 10px 20px;
@@ -76,7 +92,8 @@ button {
   transition: all 0.3s ease-in-out;
 }
 button:hover{
-    background-color: #3cff5c;
+    background-color:black;
+    color: white;
     transition: all 0.8s ease-in-out;
 
 }
@@ -100,27 +117,12 @@ button:hover{
 
     <!-- START HEADER -->
     <header class="header_wrap dark_skin main_menu_uppercase">
-        <!-- <div class="top-header bg_gray">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-7">
-                	<ul class="contact_detail border_list list_none text-center text-md-left">
-                        <li><a href="#"><i class="ti-mobile"></i> <span>+123 456 7890</span></a></li>
-                        <li><a href="#"><i class="ti-email"></i> <span>info@yourmail.com</span></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div> -->
         <div class="container">
             <nav class="navbar navbar-expand-lg">
                 <a class="navbar-brand" href="index.html">
-                    <img class="logo_light" src="https://startupbuilder.000webhostapp.com/assets/images/logo1.jpg"
-                        alt="logo" />
-                    <img class="logo_dark" src="https://startupbuilder.000webhostapp.com/assets/images/logo1.jpg"
-                        alt="logo" />
-                    <img class="logo_default" src="https://startupbuilder.000webhostapp.com/assets/images/logo1.png"
-                        alt="logo" />
+                    <div id="logo_text">
+                        <img src="https://epidotic-masts.000webhostapp.com/sunithaLOGO.jpg" width="70px" alt="logo" style="border-radius: 50%;" />&nbsp;sunitha enterprises
+                    </div>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -128,85 +130,21 @@ button:hover{
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul class="navbar-nav">
                         <li class="dropdown">
-                            <a class="nav-link active" href="/index.html">Home</a>
+                            <a class="nav-link" href="/index.html">Home</a>
                         </li>
                         <li>
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link" href="/about.html">About Us</a>
                         </li>
 
                         <li>
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link active" href="/contact.html">Contact</a>
                         </li>
                     </ul>
                 </div>
             </nav>
         </div>
     </header>
-    <!-- END HEADER -->
-
-    <!-- START SECTION BANNER -->
-    <section class="bg_light_yellow breadcrumb_section background_bg bg_fixed bg_size_contain"
-        data-img-src="assets/images/breadcrumb_bg.png">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-sm-12 text-center">
-                    <div class="page-title">
-                        <h1>Contact Us</h1>
-                    </div>
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb justify-content-center">
-                            <li class="breadcrumb-item"><a href="#">Home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
-                        </ol>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- END SECTION BANNER -->
-
-    <!-- START SECTION CONTACT -->
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <div class="heading_s2 mb-3 animation" data-animation="fadeInUp" data-animation-delay="0.1s">
-                        <h3>Get In touch</h3>
-                    </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id
-                        varius nunc id varius nunc.</p>
-                    <ul class="contact_info contact_info_style2 list_none">
-                        <li>
-                            <span style="background-color: rgb(255, 255, 255);"><img
-                                    src="https://cdn-icons-png.flaticon.com/512/5585/5585856.png"></span>
-                            <p>+123 456 7890</p>
-                        </li>
-                        <li>
-                            <span style="background-color: rgb(255, 255, 255);"><img
-                                    src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="e-mail"></span>
-                            <a href="mailto:info@yourmail.com">info@yourmail.com</a>
-                        </li>
-                        <li>
-                            <span style="background-color: rgb(255, 255, 255);"><img
-                                    src="https://cdn-icons-png.flaticon.com/512/2335/2335353.png" alt="address"></span>
-                            <address>123 Street, Old Trafford, NewYork, USA</address>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-lg-8 col-md-6 mt-4 mt-lg-0">
-                    <div class="field_form animation" data-animation="fadeInLeft" data-animation-delay="0.1s">
-                        <form method="post" name="enq">
-                            <div class="row">
-
-
-
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+ 
     <!-- END SECTION CONTACT -->
 <center>
 
@@ -298,9 +236,6 @@ loginForm.addEventListener("submit", (e) => {
             <div class="container">
                 <div class="row">
                     <div class="col-lg-">
-                        <!-- <div class="footer_logo">
-                            <a href="index.html"><img alt="logo" src="assets/images/logo_white.png"></a>
-                        </div> -->
                         <div class="footer_desc">
                             <p>Discover the art of embroidery with Sunitha Enterprises, your trusted source for
                                 top-quality embroidery machines. With a dedication to creativity and excellence, we've
@@ -308,42 +243,36 @@ loginForm.addEventListener("submit", (e) => {
                         </div>
                         <ul class="contact_info contact_info_style1 list_none">
                             <li>
-                                <span style="background-color: rgb(255, 255, 255);"><img
-                                        src="https://cdn-icons-png.flaticon.com/512/5585/5585856.png" width="40px"
-                                        height="40px"></span>
-                                <p>+123 456 7890</p>
+                                <span "><img src=" https://cdn-icons-png.flaticon.com/512/5585/5585856.png" width="30px"
+                                    height="30px"></span>
+                                <p>+91 998 625 2536</p>
                             </li>
                             <li>
-                                <span style="background-color: rgb(255, 255, 255);"><img
-                                        src="https://cdn-icons-png.flaticon.com/512/732/732200.png" width="40px"
-                                        height="40px" alt="e-mail"></span>
-                                <a href="mailto:info@yourmail.com">info@yourmail.com</a>
+                                <span "><img src=" https://cdn-icons-png.flaticon.com/512/732/732200.png" width="30px"
+                                    height="30px" alt="e-mail"></span>
+                                <a href="mailto:sunithenterprises.snd@gmail.com">sunithenterprises.snd@gmail.com</a>
                             </li>
                             <li>
-                                <span style="background-color: rgb(255, 255, 255);"><img
-                                        src="https://cdn-icons-png.flaticon.com/512/2335/2335353.png" width="40px"
-                                        height="40px" alt="address"></span>
-                                <address>123 Street, Old Trafford, NewYork, USA</address>
+                                <span "><img src=" https://cdn-icons-png.flaticon.com/512/2335/2335353.png" width="30px"
+                                    height="30px" alt="address"></span>
+                                    <a href="https://www.google.com/search?sa=X&sca_esv=565596838&biw=1517&bih=776&sxsrf=AM9HkKmIyoVPgqPIZsoY0kK76zshC4uioQ:1694771492750&q=sunitha+enterprises+sindhanur+address&ludocid=1001650572557591836&ved=2ahUKEwj737Pmq6yBAxUI2DgGHV_xBmQQ6BN6BAhLEAI"
+                                <address>SAHANA SCHOOL ROAD, Adarsh Colony, Sindhanur, Karnataka 584128, India</address>
+                                </a>
                             </li>
                         </ul>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <h5 class="widget_title2">Follow Us</h5>
-                        <ul class="list_none social_icons radius_social">
-                            <li><a href="#" style="background-color: white;"><img
+                        <ul class="list_none social_icons radius_social" style="padding: 10px;">
+                            <li><a href="https://www.facebook.com/sunitaenterprises.snd/" style="margin: 10px;"><img
                                         src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="facebook"></a>
                             </li>
-                            <li><a href="#" style="background-color: white;"><img
-                                        src="https://cdn-icons-png.flaticon.com/512/3670/3670127.png" alt="twitter"></a>
-                            </li>
-                            <li><a href="#" style="background-color: white;"><img
+                            
+                            <li><a href="https://sunitha-enterprises-sewing-machine-store.business.site/" style="margin: 10px;"><img
                                         src="https://cdn-icons-png.flaticon.com/512/281/281764.png" alt="google"></a>
                             </li>
-                            <li><a href="#" style="background-color: white;"><img
+                            <li><a href="https://www.instagram.com/sunitasewingmachinee/" style="margin: 10px;"><img
                                         src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="insta"></a>
-                            </li>
-                            <li><a href="#" style="background-color: white;"><img
-                                        src="https://cdn-icons-png.flaticon.com/512/145/145808.png" alt="pinterest"></a>
                             </li>
                         </ul>
                     </div>
@@ -404,15 +333,14 @@ loginForm.addEventListener("submit", (e) => {
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <p class="copyright m-0 text-center">Copyright © 2019 All Rights Reserved </p>
+                        <p class="copyright m-0 text-center">Copyright © 2023 Sunitha Enterprises All rights reserved
+                        </p>                    
                     </div>
                 </div>
             </div>
         </div>
     </footer>
-    <!-- END FOOTER -->
-
-    <a href="#" class="scrollup" style="display: none;"><i class="ion-ios-arrow-up"></i></a>
+    <a href="#" class="scrollup" style="display: none;" style="background-color: transparent;"><img src="https://cdn-icons-png.flaticon.com/512/5610/5610930.png" alt="from cdn, go to top" style="background-color: transparent;"></a>
 
     <!-- Latest jQuery -->
     <script src="https://startupbuilder.000webhostapp.com/assets/js/jquery-1.12.4.min.js"></script>
