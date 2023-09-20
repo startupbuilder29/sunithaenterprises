@@ -164,8 +164,11 @@ loginForm.addEventListener("submit", (e) => {
   e.preventDefault();
   let mobile = document.getElementById("mobile");
   let quote = document.getElementById("quote");
-  if (mobile.value == "" || quote.value == "") {
-    alert("Ensure you input a value in both fields!");
+  // if (mobile.value == "" || quote.value == "") {
+  //   alert("Ensure you input a value in both fields!");
+      if (quote.value == "") {
+            alert("Ensure you input a value in this fields!");
+          }
   } else {
     alert("This form has been successfully submitted!");
     console.log(
